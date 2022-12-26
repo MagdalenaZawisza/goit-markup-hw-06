@@ -694,7 +694,9 @@ body {
 .modal-imput-name {
   outline: none;
   border: none;
-  font-size: 16px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
   padding-left: 42px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -708,20 +710,11 @@ body {
   margin-bottom: 10px;
 }
 
-.modal-imput-name-svg-person {
+.modal-imput-name-svg {
   position: absolute;
-  top: 11px;
+  top: 50%;
   left: 12px;
-}
-.modal-imput-name-svg-email {
-  position: absolute;
-  top: 11px;
-  left: 12px;
-}
-.modal-imput-name-svg-phone {
-  position: absolute;
-  top: 11px;
-  left: 12px;
+  transform: translateY(-50%);
 }
 
 .modal-imput-feedback {
